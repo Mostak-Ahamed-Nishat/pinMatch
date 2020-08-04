@@ -35,6 +35,7 @@ submitButton.addEventListener("click",function(){
 
 })
 
+//Cancle Button
 
 let cancleButton=document.getElementById('cancle')
 
@@ -46,6 +47,7 @@ cancleButton.addEventListener('click',function(){
 })
 
 
+//Clear Button
 
 let clearButton=document.getElementById('clear');
 
