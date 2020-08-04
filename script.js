@@ -40,8 +40,9 @@ let cancleButton=document.getElementById('cancle')
 
 cancleButton.addEventListener('click',function(){
     let cancleVal=document.getElementById('userInputBox').value
-    var lastDigit =( cancleVal+"").slice(-1);
+    var lastDigit =cancleVal.toString().split('').slice(0, -1).join('')
     document.getElementById('userInputBox').value=lastDigit
+
 })
 
 
